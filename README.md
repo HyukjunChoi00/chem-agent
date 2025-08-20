@@ -13,5 +13,16 @@
 pip install -r requirements.txt
 ```
 
+### Run
+```
+python simple_app.py
+```
+
+### Finish
+```
+taskkill /F /IM python.exe
+```
+
+
 
   <img width="1858" height="1335" alt="image" src="https://github.com/user-attachments/assets/4ad39819-40f1-45a7-8a50-c2d6c0d45228" />
