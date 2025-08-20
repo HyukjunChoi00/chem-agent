@@ -1,0 +1,21 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Models
+pydantic==2.5.0
+
+# LangChain
+langchain==0.1.0
+langchain-google-genai==1.0.1
+langchain-core==0.1.0
+langgraph==0.0.26
+
+# Chemistry
+rdkit==2023.9.1
+
+# Utilities  
+requests==2.31.0
+typing-extensions==4.8.0
+
+# Note: os, json, base64, io, urllib.parse are built-in Python modules
