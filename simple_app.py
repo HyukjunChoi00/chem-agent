@@ -23,7 +23,7 @@ import urllib.parse
 app = FastAPI(title="HJ ChemAgent Simple")
 
 # LLM 설정
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyBuqKNpYXdl9pzxhtRqOIZf_HgNviKqCoA'
+os.environ["GOOGLE_API_KEY"] = 'Your API KEY'
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash-001",
     temperature=0,
