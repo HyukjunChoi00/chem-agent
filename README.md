@@ -23,6 +23,7 @@ python simple_app.py
 taskkill /F /IM python.exe
 ```
 
+- will be updated...
 
 
   <img width="1858" height="1335" alt="image" src="https://github.com/user-attachments/assets/4ad39819-40f1-45a7-8a50-c2d6c0d45228" />
