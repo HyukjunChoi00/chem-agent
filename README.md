@@ -25,5 +25,5 @@ taskkill /F /IM python.exe
 
 - will be updated...
 
+<img width="2512" height="1574" alt="image" src="https://github.com/user-attachments/assets/fa1fda74-4278-473e-b5c0-451731fabfe7" />
 
-  <img width="1858" height="1335" alt="image" src="https://github.com/user-attachments/assets/4ad39819-40f1-45a7-8a50-c2d6c0d45228" />
