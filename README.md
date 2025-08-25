@@ -2,7 +2,7 @@
 
 - Google Gemini
 - FastAPI
-
+- RDkit tool
 
 ### Usage Example
 - Draw CCCCC
@@ -23,7 +23,7 @@ python simple_app.py
 taskkill /F /IM python.exe
 ```
 
-- will be updated...
+- 검색 tool 추가 예정
 
 <img width="2512" height="1574" alt="image" src="https://github.com/user-attachments/assets/fa1fda74-4278-473e-b5c0-451731fabfe7" />
 
