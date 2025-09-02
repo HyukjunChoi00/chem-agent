@@ -35,7 +35,7 @@ if sys.platform == "win32":
 app = FastAPI(title="HJ ChemAgent Simple")
 
 # LLM 설정
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyAPf9KX4Ea_MKiC_tYfm8OUlv_A71BUz1I'
+os.environ["GOOGLE_API_KEY"] = 'Your API KEY'
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash-001",
     temperature=0,
