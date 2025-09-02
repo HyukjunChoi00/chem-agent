@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ### Run
 ```
-python simple_app.py
+python chemag.py
 ```
 
 ### Finish
