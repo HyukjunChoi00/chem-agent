@@ -1,21 +1,17 @@
-# Web Framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+fastapi==0.115.11
+uvicorn==0.34.0
+pydantic==2.10.6
 
-# Data Models
-pydantic==2.5.0
+# LangChain & 관련 패키지
+langchain==0.3.26
+langchain-core==0.3.70
+langchain-community==0.3.19
+langchain-google-genai==2.1.8
+langgraph==0.3.11
+langsmith==0.3.45
 
-# LangChain
-langchain==0.1.0
-langchain-google-genai==1.0.1
-langchain-core==0.1.0
-langgraph==0.0.26
+# 기타 유틸
+requests==2.32.3
+rdkit==2024.9.5
+typing-extensions==4.12.2
 
-# Chemistry
-rdkit==2023.9.1
-
-# Utilities  
-requests==2.31.0
-typing-extensions==4.8.0
-
-# Note: os, json, base64, io, urllib.parse are built-in Python modules
