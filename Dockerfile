@@ -8,6 +8,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Playwright 설치
+RUN playwright install --with-deps
+
 # 소스 복사
 COPY . .
 
