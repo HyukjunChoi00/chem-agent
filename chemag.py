@@ -38,7 +38,7 @@ app = FastAPI(title="HJ ChemAgent Simple")
 google_api_key = os.environ.get("GOOGLE_API_KEY")
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash-001",
-    google_api_key=google_api_key
+    google_api_key=google_api_key,
     temperature=0,
     max_tokens=None,
     timeout=None,
