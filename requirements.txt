@@ -14,4 +14,5 @@ langsmith==0.3.45
 requests==2.32.3
 rdkit==2024.9.5
 typing-extensions==4.12.2
+playwright==1.50.0
 
