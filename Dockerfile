@@ -1,17 +1,17 @@
-# Python 베이스 이미지
-FROM python:3.11-slim
+# 베이스 이미지를 Playwright 공식 이미지로 변경합니다.
+# (버전은 필요에 따라 https://mcr.microsoft.com/en-us/product/playwright/python/tags 에서 확인)
+FROM mcr.microsoft.com/playwright/python:v1.48.0-jammy
 
-# 작업 디렉토리
+# 작업 디렉토리 설정
 WORKDIR /app
 
-# 패키지 설치
+# requirements.txt 파일 복사
 COPY requirements.txt .
+
+# Playwright는 이미 설치되어 있으므로, 나머지 패키지만 설치합니다.
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Playwright 설치
-RUN playwright install --with-deps
-
-# 소스 복사
+# 소스 코드 복사
 COPY . .
 
 # FastAPI 실행 명령
