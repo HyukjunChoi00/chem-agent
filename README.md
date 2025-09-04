@@ -36,7 +36,7 @@ cd chem-agent
 docker build -t chem-agent-app .
 ```
 
-
+위 코드까지 입력 시 docker image를 만들 수 있으며, AWS Elastic Container Registry에 image를 push하여 AWS App Runner와 같은 곳에 **배포**가 가능합니다.  
 ```
 docker run -p 8000:8000 -e GOOGLE_API_KEY="YOUR API KEY" chem-agent-app
 ```
