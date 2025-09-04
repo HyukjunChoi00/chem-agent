@@ -16,4 +16,5 @@ rdkit==2024.9.5
 typing-extensions==4.12.2
 playwright==1.50.0
 beautifulsoup4==4.12.3
+nest-asyncio==1.6.0
 
